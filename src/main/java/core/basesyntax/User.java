@@ -31,10 +31,6 @@ public class User {
         return repeatPassword;
     }
 
-    public void setRepeatPassword(String repeatPassword) {
-        this.repeatPassword = repeatPassword;
-    }
-
     @Override
     public String toString() {
         return "User{"
