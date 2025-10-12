@@ -1,3 +1,5 @@
+package core.basesyntax;
+
 public class UserService {
     public void registerUser(User user) {
         try {
@@ -5,7 +7,7 @@ public class UserService {
             saveUser(user);
             System.out.println("User registered successfully");
         } catch (PasswordValidationException e) {
-            System.out.println("Your passwords are incorrect. Try again. Reason: " + e.getMessage());
+            System.out.println("Your passwords are incorrect. Try again.");
         }
     }
 
