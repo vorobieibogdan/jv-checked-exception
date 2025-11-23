@@ -6,5 +6,3 @@ public class PasswordValidationException extends Exception {
     }
 }
 
-
-
