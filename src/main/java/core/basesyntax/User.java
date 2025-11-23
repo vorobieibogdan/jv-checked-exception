@@ -1,29 +1,20 @@
 package core.basesyntax;
 
 public class User {
-    private String name;
+    private String login;
     private String password;
-    private String repeatPassword;
 
-    // getters, setters, constructor
-
-    public User(String name, String password, String repeatPassword) {
-        this.name = name;
+    public User(String login, String password) {
+        this.login = login;
         this.password = password;
-        this.repeatPassword = repeatPassword;
     }
 
-    public String getName() {
-        return name;
+    public String getLogin() {
+        return login;
     }
 
     public String getPassword() {
         return password;
     }
-
-    public String getRepeatPassword() {
-        return repeatPassword;
-    }
 }
-
 
